@@ -25,17 +25,16 @@ Aegis is a specialized AI cyber analyst powered by **Groq** and operating within
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [your_repo_link]
-    cd [your_repo_name]
+    git clone https://github.com/Ashfaaq98/Aegis-Forensics.git
+    cd Aegis-Forensics
     ```
 
 2.  **Create Virtual Environment & Install Dependencies:**
     ```bash
     python -m venv venv
-    source venv/bin/activate  # On Windows, use: .\venv\Scripts\activate
-    pip install -r requirements.txt # Assuming you have a requirements file
+    source venv/bin/activate  
+    pip install -r requirements.txt 
     ```
-    *(If you don't have a `requirements.txt`, you will need to install `streamlit`, `groq`, `e2b`, and `python-dotenv`.)*
 
 3.  **Configure Environment Variables:**
     Create a file named `.env` in the root directory and add your keys:
