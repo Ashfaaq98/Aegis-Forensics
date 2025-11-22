@@ -1,0 +1,5 @@
+__pycache__
+aegis_operations.log
+venv/
+.DS_Store
+.env
