@@ -43,7 +43,7 @@ Aegis is a specialized AI cyber analyst powered by **Groq** and operating within
     E2B_API_KEY="your_e2b_api_key_here"
     ```
 
-## 💻 Running the App
+## Running the App
 
 Start the Streamlit application from your terminal:
 

@@ -1,7 +1,6 @@
-# app.py
 import streamlit as st
 import logging
-from backend import CyberAgent
+from src.backend import CyberAgent
 import os
 
 logger = logging.getLogger("AegisFrontend")
