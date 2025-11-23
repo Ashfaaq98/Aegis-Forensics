@@ -1,18 +1,18 @@
-# 🛡️ Aegis: Digital Forensics Agent
+# Aegis: Digital Forensics Agent
 
 Aegis is a specialized AI cyber analyst powered by **Groq** and operating within a secure **E2B Sandbox** environment. It provides a secure, isolated platform for analyzing suspicious files, network captures (PCAP), and potentially malicious URLs without risking the host machine.
 
-## ✨ Key Features
+## Key Features
 
-* **Isolated Analysis:** All forensic tools (`clamscan`, `tshark`, `exiftool`, `pefile`, etc.) run in a disposable, secure cloud sandbox (E2B).
-* **LLM Orchestration (Groq):** The Groq LLM handles conversational context and intelligently selects and executes the appropriate tool based on user intent (e.g., automatically calling `visit_url` for a link or `scan_file` for an uploaded executable).
+* **Isolated Analysis:** All forensic tools run in a disposable, secure cloud sandbox (E2B).
+
 * **Forensic Tool Suite:** Pre-installed tools for:
-    * Web/Phishing Analysis (`visit_url`)
-    * Malware Scanning (`scan_file` / ClamAV)
-    * Network Traffic Inspection (`analyze_pcap` / tshark)
-    * Metadata and Static Analysis (`extract_metadata`, `static_analysis`)
+    * Web/Phishing Analysis
+    * Malware Scanning 
+    * Network Traffic Inspection
+    * Metadata and Static Analysis 
 
-## 🚀 Setup and Installation
+## Setup and Installation
 
 ### Prerequisites
 
