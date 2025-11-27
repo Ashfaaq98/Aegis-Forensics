@@ -7,10 +7,16 @@ Aegis is a specialized AI cyber analyst powered by **Groq** and operating within
 * **Isolated Analysis:** All forensic tools run in a disposable, secure cloud sandbox (E2B).
 
 * **Forensic Tool Suite:** Pre-installed tools for:
-    * Web/Phishing Analysis
+    * Phishing  URL Analysis
     * Malware Scanning 
-    * Network Traffic Inspection
-    * Metadata and Static Analysis 
+    * Network Traffic Analysis
+    * Metadata Extraction
+    * Static Malware Analysis
+    * Dynamic Malware Analysis
+    * Memory Forensics
+    * File Carving
+    * Hash Analysis
+    * Behavioral Analysis
 
 ## Setup and Installation
 
